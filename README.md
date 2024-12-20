@@ -1,4 +1,4 @@
-# **Powered Simulator for BMI and Health Predictions Based on Lifestyle Modifications**
+# **Dynamic BMI Simulator: Track and Transform with Lifestyle Changes**
 
 ## **Overview**
 Obesity is a growing global health concern, with over 1 billion individuals affected as of 2022. In South Korea, the adult obesity rate surged from 35.1% in 2011 to 46.3% in 2021 (WHO). This project offers a personalized health management tool that empowers users to calculate their Body Mass Index (BMI) and simulate potential improvements based on lifestyle changes.
