@@ -17,7 +17,7 @@ page = st.sidebar.radio(
 # Page 1: Home & How to Use the App
 if page == "How to Use the App":
     st.title("Obesity Level Prediction: Eating Habits & Fitness")
-    st.image("20240810_IRD001.webp", use_column_width=True)
+    st.image("20240810_IRD001.webp", use_container_width=True)
     st.write("""
         Welcome to the Obesity Level Prediction App! This app helps you better understand and manage your health by analyzing your eating habits and physical activity.
         Use the menu on the left to explore the app's features.
@@ -51,7 +51,7 @@ elif page == "About Obesity":
         3. **Environmental Influences**: Access to healthy food, sedentary occupations, and urban lifestyles often contribute to higher obesity rates.
         </div>
         """, unsafe_allow_html=True)
-        st.image("1aa0d26994667aa8697314d0e077c9c7b53f49ca-1240x874.webp", caption="Factors Influencing Obesity", use_column_width=True)
+        st.image("1aa0d26994667aa8697314d0e077c9c7b53f49ca-1240x874.webp", caption="Factors Influencing Obesity", use_container_width=True)
         
 
     # Section 3: Key Factors Influencing Obesity
@@ -62,7 +62,7 @@ elif page == "About Obesity":
         3. **Environmental Influences**: Access to healthy food, sedentary occupations, and urban lifestyles often contribute to higher obesity rates.
         </div>
         """, unsafe_allow_html=True)
-        st.image("Factors-contributing-to-pediatric-obesity-BED-binge-eating-disorder.png", caption="Factors Influencing Obesity", use_column_width=True)
+        st.image("Factors-contributing-to-pediatric-obesity-BED-binge-eating-disorder.png", caption="Factors Influencing Obesity", use_container_width=True)
 
     # Section 4: Why BMI Differs Between Men and Women
     with st.expander("⚖️ **Why BMI Differs Between Men and Women**", expanded=False):
@@ -78,7 +78,7 @@ elif page == "About Obesity":
             - Testosterone suppresses fat accumulation in non-abdominal areas, leading to these differences.
         </div>
         """, unsafe_allow_html=True)
-        st.image("bmi-for-men-and-women.webp", caption="BMI Difference between Men and Women", use_column_width=True)
+        st.image("bmi-for-men-and-women.webp", caption="BMI Difference between Men and Women", use_container_width=True)
 
     # Section 5: Health Risks Associated with Obesity
     with st.expander("⚠️ **Health Risks Associated with Obesity**", expanded=False):
@@ -108,7 +108,7 @@ elif page == "About Obesity":
 
         </div>
         """, unsafe_allow_html=True)
-        st.image("369185864_614149610892096_6036807610600070169_n.jpg", caption="Health Risks of Obesity", use_column_width=True)
+        st.image("369185864_614149610892096_6036807610600070169_n.jpg", caption="Health Risks of Obesity", use_container_width=True)
 
 # Page 3: Make Prediction
 elif page == "Make Prediction":
