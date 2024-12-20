@@ -78,3 +78,20 @@ Obesity is a growing global health concern, with over 1 billion individuals affe
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-repo-link
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+3. **Launch the Streamlit App**:
+   ```bash
+   streamlit run app.py
+
+---
+
+## **Acknowledgments**
+- **Datasets**:
+  - Kaggle: Obesity Dataset
+  - UCI: Obesity Levels Estimation Dataset
+- **Team Members**:
+  - Hari Kang
+  - Yunji Lee
+   
